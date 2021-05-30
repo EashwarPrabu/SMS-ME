@@ -108,7 +108,7 @@ exports.getDashboardData = async (req, res) => {
     try {
         //! TEST THIS QUERY!
         // const devices = await Device.find({}).select("spokeid");
-        devices = [1, 2];
+        devices = [1, 2, 3];
         let onDevice = 0;
         let offDevice = 0;
         let idleDevice = 0;
